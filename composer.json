@@ -1,0 +1,19 @@
+{
+    "name": "santa/tube",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App",
+            "Santa\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "mohammedsanta",
+            "email": "mohammedsantaa@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "symfony/var-dumper": "^6.2"
+    }
+}
